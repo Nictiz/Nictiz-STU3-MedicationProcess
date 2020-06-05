@@ -1,9 +1,9 @@
-# Nictiz-STU3-Zib2017
-This repository contains HL7 FHIR STU3 compliant profiles. The FHIR profiles in this repository are based on the Release 2017 of the Dutch Clinical Building Blocks / Healthcare Information models (Dutch: [Zorginformatiebouwsteen or ZIB](https://zibs.nl/wiki/Zorginformatiebouwstenen "Zorginformatiebouwstenen")). This is the stable branch for the **2.x.x version** of the package.
+# Nictiz-STU3-MedicationProcess
+This repository contains HL7 FHIR STU3 compliant profiles for the information standard [Medication Process](https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2019.01_OntwerpMedicatie). This is the stable branch for the **9.1.0 version** of the package.
 
-Among other things  these FHIR profiles cover the HCIMs/Zibs that are part of the [Basisgegevensset Zorg](https://www.registratieaandebron.nl/wat-is-registreren-aan-de-bron/de-kern-van-registreren-aan-de-bron/basisgegevensset/ "Basisgegevensset Zorg") (BGZ).
+The Dutch National ICT institute in the Netherlands (Nictiz) maintains this repository and its contents.
 
-The Dutch National ICT institute in the Netherlands (Nictiz) maintains this repository and its contents. A number of contained core profiles have been developed under HL7 Netherlands responsability in cooperation with Nictiz and other parties. These profiles are marked slightly different in the name (nl-core-\*), the url (http://fhir.nl/*) and their publisher (HL7 Netherlands). Profiles by HL7 Netherlands are Patient, Organization, Practitioner, RelatedPerson, HealthcareService, EpisodeOfCare, Location, and datatypes Address and HumanName.
+This project has a dependency on the [zib2017 package](https://simplifier.net/NictizSTU3-Zib2017/~packages).
 
 - - - -
 
@@ -11,7 +11,7 @@ The Dutch National ICT institute in the Netherlands (Nictiz) maintains this repo
 
 ### Branching strategy
 
-Since 27th of January 2020, the branch "stable-1.x" (default on GitHub) is considered the stable branch, not "master". The reason for this is that there may be multiple stable branches being maintained simultaniously. This branch corresponds to the HL7 FHIR package that Nictiz publishes.
+The branch "stable-9.0.7" (default) is considered the main branch (not "master"). The reason for this is that there may be multiple stable branches being maintained simultaniously. This branch corresponds to the HL7 FHIR package that Nictiz publishes.
 
 Nictiz uses the following branching strategy for development:
 * Releases correspond with the "stable-xxx" branches. These branches are only updated when there is a new release.
