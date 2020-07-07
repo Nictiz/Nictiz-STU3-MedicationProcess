@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="mp612-DispenseToFHIRConversion-Dispense" />
+  <id value="mp612-DispenseToFHIRConversion-Dispense" />
   <url value="http://nictiz.nl/fhir/StructureDefinition/mp612-DispenseToFHIRConversion-Dispense" />
   <version value="1.2.1" />
   <name value="MP612 DispenseToFHIRConversion Dispense" />
@@ -15,7 +15,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This profile is derived from the profile of the Dutch Health and Care Information models (Dutch: Zorginformatiebouwsteen or ZIB) MedicationDispense. release 2017." />
+  <description value="This profile adds the Medicatieproces V9.0.7 specifc requirements to the mp-MedicationDispense profile to model a Medicationproces V612 dispense." />
   <purpose value="This profile defines the FHIR response for HCIM Dispense of a Medicationproces V6.12 request on the LSP." />
   <copyright value="CC0" />
   <fhirVersion value="3.0.2" />
@@ -27,7 +27,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="MedicationDispense" />
-  <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/zib-Dispense" />
+  <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/mp-Dispense" />
   <derivation value="constraint" />
   <differential>
     <element id="MedicationDispense">
@@ -71,11 +71,6 @@
       <path value="MedicationDispense.identifier" />
       <min value="1" />
       <max value="1" />
-      <mapping>
-        <identity value="Medication-Process-v09" />
-        <map value="mp-dataelement900-20271" />
-        <comment value="Identificatie" />
-      </mapping>
     </element>
     <element id="MedicationDispense.identifier.system">
       <path value="MedicationDispense.identifier.system" />
@@ -164,7 +159,7 @@
     </element>
     <element id="MedicationDispense.authorizingPrescription">
       <path value="MedicationDispense.authorizingPrescription" />
-      <definition value="Relationship to the dispense request. Only a logical identifier could be known of the dispense request in MP-612, hence the 0..0 constrain on reference. " />
+      <definition value="Relationship to the dispense request. Only a logical identifier could be known of the dispense request in MP-612, hence the 0..0 constrain on reference." />
       <mapping>
         <identity value="Medication-Process-v09" />
         <map value="mp-dataelement900-22396" />

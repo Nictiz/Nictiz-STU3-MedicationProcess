@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="mp-AdministrationAgreement" />
-  <url value="http://nictiz.nl/fhir/StructureDefinition/mp-AdministrationAgreement" />
+  <id value="mp-Dispense" />
+  <url value="http://nictiz.nl/fhir/StructureDefinition/mp-Dispense" />
   <version value="0.1.0" />
-  <name value="mp-AdministrationAgreement" />
-  <title value="mp-AdministrationAgreement" />
+  <name value="mp-Dispense" />
+  <title value="mp-Dispense" />
   <status value="active" />
   <publisher value="Nictiz" />
   <contact>
@@ -15,25 +15,20 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This profile adds the Medicatieproces V9.0.7 specifc requirements to the zib-AdministrationAgreement profile." />
-  <purpose value="The goal of the administration agreement is to provide insight into the concrete instructions for administration/use of medication." />
+  <description value="This profile is based on Medicatieproces V9.0.7 and the related Dutch Health and Care Information models (Dutch: Zorginformatiebouwsteen or ZIB) MedicationDispense version 2.0, year 2017.&#xD;&#xA;A dispense is the delivery of an amount of medicine to the patient, their administrator or their representative." />
+  <purpose value="The goal of the dispense is to provide insight into which products are delivered by the pharmacist to the patient (or their representative)" />
   <copyright value="CC0" />
   <fhirVersion value="3.0.2" />
   <mapping>
-    <identity value="hcim-administrationagreement-v1.0-2017EN" />
-    <uri value="https://zibs.nl/wiki/AdministrationAgreement-v1.0(2017EN)" />
-    <name value="HCIM AdministrationAgreement-v1.0(2017EN)" />
+    <identity value="hcim-dispense-v1.0-2017EN" />
+    <uri value="https://zibs.nl/wiki/Dispense-v1.0(2017EN)" />
+    <name value="HCIM Dispense-v1.0(2017EN)" />
   </mapping>
   <mapping>
     <identity value="Medication-Process-v09" />
     <uri value="https://decor.nictiz.nl/medicatieproces/mp-html-20181220T121121/ds-2.16.840.1.113883.2.4.3.11.60.20.77.1.3-2016-06-01T000000.html" />
     <name value="Medication Process v09" />
     <comment value="Language of Medication Process is Dutch." />
-  </mapping>
-  <mapping>
-    <identity value="hcim-instructionsforuse-v1.0-2017EN" />
-    <uri value="https://zibs.nl/wiki/InstructionsForUse-v1.0(2017EN)" />
-    <name value="HCIM InstructionsForUse-v1.0(2017EN)" />
   </mapping>
   <mapping>
     <identity value="hcim-basicelements-v1.0-2017EN" />
@@ -43,9 +38,14 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="MedicationDispense" />
-  <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/zib-AdministrationAgreement" />
+  <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/zib-Dispense" />
   <derivation value="constraint" />
   <differential>
+    <element id="MedicationDispense.extension:additionalInformation">
+      <path value="MedicationDispense.extension" />
+      <sliceName value="additionalInformation" />
+      <definition value="Additional information includes details on the structure of the dispense. This can be e.g. a reason for deviating from the dispense request.          For now, this list is used. This list will be replaced by a thesaurus in the G standard at a later stage." />
+    </element>
     <element id="MedicationDispense.extension:medicationTreatment">
       <path value="MedicationDispense.extension" />
       <sliceName value="medicationTreatment" />
@@ -64,39 +64,14 @@
         <comment value="Medicamenteuze behandeling" />
       </mapping>
     </element>
-    <element id="MedicationDispense.extension:copyIndicator">
-      <path value="MedicationDispense.extension" />
-      <sliceName value="copyIndicator" />
-      <short value="copy indicator" />
-      <alias value="kopie indicator" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp-Medication-CopyIndicator" />
-      </type>
-      <mapping>
-        <identity value="Medication-Process-v09" />
-        <map value="mp-dataelement900-23412" />
-        <comment value="Kopie Indicator" />
-      </mapping>
-    </element>
     <element id="MedicationDispense.identifier">
       <path value="MedicationDispense.identifier" />
-      <short value="MedicationAdministrationIdentifier" />
-      <alias value="ToedieningsafspraakIdentificatie" />
+      <short value="DispenseIdentifier" />
+      <alias value="VerstrekkingIdentificatie" />
       <mapping>
         <identity value="Medication-Process-v09" />
-        <map value="mp-dataelement900-20134" />
+        <map value="mp-dataelement900-20271" />
         <comment value="Identificatie" />
-      </mapping>
-    </element>
-    <element id="MedicationDispense.performer">
-      <path value="MedicationDispense.performer" />
-      <comment value="Use a reference to an nl-core-organization using the actor.reference element" />
-      <mapping>
-        <identity value="hcim-administrationagreement-v1.0-2017EN" />
-        <map value="NL-CM:9.8.22097" />
-        <comment value="Supplier. For MP: Use a reference to an nl-core-organization using the actor.reference element" />
       </mapping>
     </element>
   </differential>

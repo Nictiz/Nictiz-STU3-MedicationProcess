@@ -15,7 +15,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This profile is derived from the profile of the Dutch Health and Care Information model (Dutch: Zorginformatiebouwsteen or ZIB) Patient, release 2017" />
+  <description value="This profile adds the Medicatieproces V9.0.7 specifc requirements to the nl-core-patient profile to model a Medicationproces V612 dispense." />
   <purpose value="This profile defines the FHIR response for HCIM Patient of a Medicationproces V6.12 request on the LSP." />
   <copyright value="CC0" />
   <fhirVersion value="3.0.2" />
@@ -98,6 +98,20 @@
       <path value="Patient.address" />
       <max value="0" />
     </element>
+    <element id="Patient.address.country.extension:countryCode">
+      <path value="Patient.address.country.extension" />
+      <sliceName value="countryCode" />
+    </element>
+    <element id="Patient.address.country.extension:countryCode.valueCodeableConcept:valueCodeableConcept.coding">
+      <path value="Patient.address.country.extension.valueCodeableConcept.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
     <element id="Patient.maritalStatus">
       <path value="Patient.maritalStatus" />
       <max value="0" />
@@ -124,6 +138,20 @@
       </extension>
       <path value="Patient.contact" />
       <max value="0" />
+    </element>
+    <element id="Patient.contact.address.country.extension:countryCode">
+      <path value="Patient.contact.address.country.extension" />
+      <sliceName value="countryCode" />
+    </element>
+    <element id="Patient.contact.address.country.extension:countryCode.valueCodeableConcept:valueCodeableConcept.coding">
+      <path value="Patient.contact.address.country.extension.valueCodeableConcept.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
     </element>
     <element id="Patient.animal">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">

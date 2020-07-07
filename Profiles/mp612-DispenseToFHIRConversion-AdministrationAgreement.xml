@@ -15,7 +15,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This profile is derived from the profile of the Dutch Health and Care Information model (Dutch: Zorginformatiebouwsteen or ZIB) MedicationAdministration, release 2017" />
+  <description value="This profile adds the Medicatieproces V9.0.7 specifc requirements to the mp-AdministrationAgreement profile to model a Medicationproces V612 Dispense." />
   <purpose value="This profile defines the FHIR response for HCIM AdministrationAgreement of a Medicationproces V6.12 request on the LSP." />
   <copyright value="CC0" />
   <fhirVersion value="3.0.2" />
@@ -28,7 +28,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="MedicationDispense" />
-  <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/zib-AdministrationAgreement" />
+  <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/mp-AdministrationAgreement" />
   <derivation value="constraint" />
   <differential>
     <element id="MedicationDispense">
