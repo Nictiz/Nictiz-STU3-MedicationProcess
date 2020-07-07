@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="zib-Dispense" />
-  <url value="http://nictiz.nl/fhir/StructureDefinition/zib-Dispense" />
-  <version value="2.2.0" />
+  <id value="mp-Dispense" />
+  <url value="http://nictiz.nl/fhir/StructureDefinition/mp-Dispense" />
+  <version value="0.1.0" />
   <name value="Zib Dispense" />
   <title value="HCIM Dispense" />
   <status value="active" />
@@ -38,7 +38,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="MedicationDispense" />
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationDispense" />
+  <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/zib-Dispense" />
   <derivation value="constraint" />
   <differential>
     <element id="MedicationDispense">

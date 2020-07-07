@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="zib-InstructionsForUse" />
-  <url value="http://nictiz.nl/fhir/StructureDefinition/zib-InstructionsForUse" />
-  <version value="2.0.2" />
+  <id value="mp-InstructionsForUse" />
+  <url value="http://nictiz.nl/fhir/StructureDefinition/mp-InstructionsForUse" />
+  <version value="0.1.0" />
   <name value="Zib InstructionsForUse" />
   <title value="HCIM InstructionsForUse" />
   <status value="active" />
@@ -27,7 +27,7 @@
   <kind value="complex-type" />
   <abstract value="false" />
   <type value="Dosage" />
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Dosage" />
+  <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/zib-InstructionsForUse" />
   <derivation value="constraint" />
   <differential>
     <element id="Dosage">

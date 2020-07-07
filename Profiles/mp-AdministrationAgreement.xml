@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="zib-AdministrationAgreement" />
-  <url value="http://nictiz.nl/fhir/StructureDefinition/zib-AdministrationAgreement" />
-  <version value="2.2.2" />
+  <id value="mp-AdministrationAgreement" />
+  <url value="http://nictiz.nl/fhir/StructureDefinition/mp-AdministrationAgreement" />
+  <version value="0.1.0" />
   <name value="Zib AdministrationAgreement" />
   <title value="HCIM AdministrationAgreement" />
   <status value="active" />
@@ -43,7 +43,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="MedicationDispense" />
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationDispense" />
+  <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/zib-AdministrationAgreement" />
   <derivation value="constraint" />
   <differential>
     <element id="MedicationDispense">

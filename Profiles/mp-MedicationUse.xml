@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="zib-MedicationUse" />
-  <url value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationUse" />
-  <version value="2.2.5" />
+  <id value="mp-MedicationUse" />
+  <url value="http://nictiz.nl/fhir/StructureDefinition/mp-MedicationUse" />
+  <version value="0.1.0" />
   <name value="Zib MedicationUse" />
   <title value="HCIM MedicationUse" />
   <status value="active" />
@@ -48,7 +48,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="MedicationStatement" />
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationStatement" />
+  <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationUse" />
   <derivation value="constraint" />
   <differential>
     <element id="MedicationStatement">
