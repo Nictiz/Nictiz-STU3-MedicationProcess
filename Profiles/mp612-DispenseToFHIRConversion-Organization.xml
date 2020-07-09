@@ -91,20 +91,6 @@
       <path value="Organization.address" />
       <max value="0" />
     </element>
-    <element id="Organization.address.country.extension:countryCode">
-      <path value="Organization.address.country.extension" />
-      <sliceName value="countryCode" />
-    </element>
-    <element id="Organization.address.country.extension:countryCode.valueCodeableConcept:valueCodeableConcept.coding">
-      <path value="Organization.address.country.extension.valueCodeableConcept.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
     <element id="Organization.partOf">
       <path value="Organization.partOf" />
       <max value="0" />
