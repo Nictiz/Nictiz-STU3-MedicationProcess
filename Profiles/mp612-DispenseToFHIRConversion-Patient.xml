@@ -125,20 +125,6 @@
       <path value="Patient.contact" />
       <max value="0" />
     </element>
-    <element id="Patient.contact.address.country.extension:countryCode">
-      <path value="Patient.contact.address.country.extension" />
-      <sliceName value="countryCode" />
-    </element>
-    <element id="Patient.contact.address.country.extension:countryCode.valueCodeableConcept:valueCodeableConcept.coding">
-      <path value="Patient.contact.address.country.extension.valueCodeableConcept.coding" />
-      <slicing>
-        <discriminator>
-          <type value="pattern" />
-          <path value="$this" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
     <element id="Patient.animal">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
         <valueString value="Animal" />
