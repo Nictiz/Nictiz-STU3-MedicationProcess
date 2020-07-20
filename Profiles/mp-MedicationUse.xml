@@ -68,11 +68,6 @@
     <element id="MedicationStatement.extension:reasonForChangeOrDiscontinuationOfUse.valueCodeableConcept:valueCodeableConcept">
       <path value="MedicationStatement.extension.valueCodeableConcept" />
       <sliceName value="valueCodeableConcept" />
-      <mapping>
-        <identity value="Medication-Process-v09" />
-        <map value="mp-dataelement900-22493" />
-        <comment value="Reden wijzigen of stoppen gebruik" />
-      </mapping>
       <binding>
         <strength value="extensible" />
         <description value="RedenWijzStakenMedicatiegebruik" />
@@ -81,23 +76,10 @@
           <display value="RedenWijzigenOfStoppenGebruikCodelijst" />
         </valueSetReference>
       </binding>
-    </element>
-    <element id="MedicationStatement.extension:medicationTreatment">
-      <path value="MedicationStatement.extension" />
-      <sliceName value="medicationTreatment" />
-      <short value="Medical Treatment" />
-      <definition value="This extension is to describe which overarching medical treatment this information is part of. This is done by the use of an identifier of that medical treatment." />
-      <comment value="No HCIM concept is available for this element. Therefore a mapping to the relevant element Medication Process data element is provided." />
-      <alias value="Medicamenteuze Behandeling" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp-Medication-MedicationTreatment" />
-      </type>
       <mapping>
         <identity value="Medication-Process-v09" />
-        <map value="mp-dataelement900-22092" />
-        <comment value="Medicamenteuze behandeling" />
+        <map value="mp-dataelement900-22493" />
+        <comment value="Reden wijzigen of stoppen gebruik" />
       </mapping>
     </element>
     <element id="MedicationStatement.extension:copyIndicator">

@@ -46,24 +46,6 @@
   <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/zib-AdministrationAgreement" />
   <derivation value="constraint" />
   <differential>
-    <element id="MedicationDispense.extension:medicationTreatment">
-      <path value="MedicationDispense.extension" />
-      <sliceName value="medicationTreatment" />
-      <short value="Medication Treatment" />
-      <definition value="This extension is to describe which overarching medication treatment this information is part of. This is done by the use of an identifier of that medication treatment." />
-      <comment value="No HCIM concept is available for this element. Therefore a mapping to the relevant element Medication Process data element is provided." />
-      <alias value="Medicamenteuze behandeling" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp-Medication-MedicationTreatment" />
-      </type>
-      <mapping>
-        <identity value="Medication-Process-v09" />
-        <map value="mp-dataelement900-22092" />
-        <comment value="Medicamenteuze behandeling" />
-      </mapping>
-    </element>
     <element id="MedicationDispense.extension:copyIndicator">
       <path value="MedicationDispense.extension" />
       <sliceName value="copyIndicator" />
