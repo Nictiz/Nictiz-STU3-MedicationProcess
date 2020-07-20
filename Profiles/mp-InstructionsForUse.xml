@@ -30,9 +30,5 @@
   <baseDefinition value="http://nictiz.nl/fhir/StructureDefinition/zib-InstructionsForUse" />
   <derivation value="constraint" />
   <differential>
-    <element id="Dosage.rate[x]">
-      <path value="Dosage.rate[x]" />
-      <definition value="The administering speed is used in slow administration of liquid. In practice, the measuring unit is almost always ml/hour.                  Entering an interval (such as 0-10 ml/hour) is also a commonly used option.                                   For example, with an administering speed of 10ml/hour:                  amount = 10,                 dose unit = ml                 time unit = hour" />
-    </element>
   </differential>
 </StructureDefinition>
