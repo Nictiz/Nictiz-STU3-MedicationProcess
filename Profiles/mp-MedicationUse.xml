@@ -73,7 +73,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://nictiz.nl/fhir/StructureDefinition/zib-Medication-CopyIndicator" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp-Medication-CopyIndicator" />
       </type>
       <mapping>
         <identity value="Medication-Process-v09" />

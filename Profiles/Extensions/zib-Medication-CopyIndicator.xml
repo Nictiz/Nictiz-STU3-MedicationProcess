@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="zib-Medication-CopyIndicator" />
-  <url value="http://nictiz.nl/fhir/StructureDefinition/zib-Medication-CopyIndicator" />
+  <url value="http://nictiz.nl/fhir/StructureDefinition/mp-Medication-CopyIndicator" />
   <version value="2.0.0" />
   <name value="Zib Medication CopyIndicator" />
   <title value="HCIM Medication Copy Indicator" />
@@ -34,7 +34,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://nictiz.nl/fhir/StructureDefinition/zib-Medication-CopyIndicator" />
+      <fixedUri value="http://nictiz.nl/fhir/StructureDefinition/mp-Medication-CopyIndicator" />
     </element>
     <element id="Extension.value[x]:valueBoolean">
       <path value="Extension.valueBoolean" />

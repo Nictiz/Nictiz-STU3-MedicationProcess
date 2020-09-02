@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="zib-DispenseRequest-RelatedMedicationAgreement" />
-  <url value="http://nictiz.nl/fhir/StructureDefinition/zib-DispenseRequest-RelatedMedicationAgreement" />
+  <url value="http://nictiz.nl/fhir/StructureDefinition/mp-DispenseRequest-RelatedMedicationAgreement" />
   <version value="2.0.0" />
   <name value="Zib Related Medication Agreement" />
   <title value="HCIM Related Medication Agreement" />
@@ -29,14 +29,14 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://nictiz.nl/fhir/StructureDefinition/zib-DispenseRequest-RelatedMedicationAgreement" />
+      <fixedUri value="http://nictiz.nl/fhir/StructureDefinition/mp-DispenseRequest-RelatedMedicationAgreement" />
     </element>
     <element id="Extension.value[x]:valueReference">
       <path value="Extension.valueReference" />
       <sliceName value="valueReference" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationAgreement" />
+        <targetProfile value="http://nictiz.nl/fhir/StructureDefinition/mp-MedicationAgreement" />
       </type>
     </element>
   </differential>

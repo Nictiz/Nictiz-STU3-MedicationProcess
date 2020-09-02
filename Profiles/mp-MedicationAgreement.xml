@@ -54,7 +54,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://nictiz.nl/fhir/StructureDefinition/zib-Medication-CopyIndicator" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp-Medication-CopyIndicator" />
       </type>
       <mapping>
         <identity value="Medication-Process-v09" />
@@ -70,7 +70,7 @@
       <alias value="Relatie naar afspraak of gebruik" />
       <type>
         <code value="Extension" />
-        <profile value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationAgreement-BasedOnAgreementOrUse" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp-MedicationAgreement-BasedOnAgreementOrUse" />
       </type>
       <mapping>
         <identity value="Medication-Process-v09" />

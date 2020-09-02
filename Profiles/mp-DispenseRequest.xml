@@ -50,7 +50,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://nictiz.nl/fhir/StructureDefinition/zib-DispenseRequest-RelatedMedicationAgreement" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp-DispenseRequest-RelatedMedicationAgreement" />
       </type>
       <mapping>
         <identity value="Medication-Process-v09" />

@@ -31,28 +31,28 @@
     <reference value="http://fhir.nl/fhir/StructureDefinition/nl-core-organization" />
   </profile>
   <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationUse" />
+    <reference value="http://nictiz.nl/fhir/StructureDefinition/mp-MedicationUse" />
   </profile>
   <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationAdministration" />
+    <reference value="http://nictiz.nl/fhir/StructureDefinition/mp-MedicationAdministration" />
   </profile>
   <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-AdministrationAgreement" />
+    <reference value="http://nictiz.nl/fhir/StructureDefinition/mp-AdministrationAgreement" />
   </profile>
   <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationAgreement" />
+    <reference value="http://nictiz.nl/fhir/StructureDefinition/mp-MedicationAgreement" />
   </profile>
   <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-Dispense" />
+    <reference value="http://nictiz.nl/fhir/StructureDefinition/mp-Dispense" />
   </profile>
   <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-DispenseRequest" />
+    <reference value="http://nictiz.nl/fhir/StructureDefinition/mp-DispenseRequest" />
   </profile>
   <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-Product" />
+    <reference value="http://nictiz.nl/fhir/StructureDefinition/mp-Product" />
   </profile>
   <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-InstructionsForUse" />
+    <reference value="http://nictiz.nl/fhir/StructureDefinition/mp-InstructionsForUse" />
   </profile>
   <profile>
     <reference value="http://nictiz.nl/fhir/StructureDefinition/Bundle-MedicationOverview" />
