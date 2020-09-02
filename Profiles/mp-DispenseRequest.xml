@@ -68,5 +68,13 @@
         <comment value="Identificatie" />
       </mapping>
     </element>
+    <element id="MedicationRequest.requester.agent">
+      <path value="MedicationRequest.requester.agent" />
+      <mapping>
+        <identity value="Medication-Process-v09" />
+        <map value="mp-dataelement900-22121" />
+        <comment value="Auteur" />
+      </mapping>
+    </element>
   </differential>
 </StructureDefinition>
