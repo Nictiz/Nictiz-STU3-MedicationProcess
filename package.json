@@ -1,29 +1,13 @@
 {
-    "name": "nictiz.fhir.nl.stu3.medicationprocess",
-    "version": "9.1.0-beta1",
-    "canonical": null,
-    "web": "https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2019.01_OntwerpMedicatie",
-    "title": "Nictiz FHIR NL STU3 Medication Process",
-    "description": "Nictiz NL package of FHIR STU3 conformance resources for Medication Process.",
-    "keywords": [
-        "Medication",
-        "Medication Process",
-        "nl",
-        "Nictiz",
-        "MedMij"
-    ],
-    "author": "nictiz",
-    "maintainers": [
-        {
-            "name": "Nictiz",
-            "email": "standaarden@medmij.nl"
-        }
-    ],
-    "license": "CC0-1.0",
-    "devDependencies": null,
-    "canonicals": null,
-    "dependencies": {
-        "hl7.fhir.r3.core": "3.0.2",
-        "nictiz.fhir.nl.stu3.zib2017-prerelease": "2.0.x"
-    }
+  "name": "nictiz.fhir.nl.stu3.medicationprocess",
+  "version": "9.1.0-beta1",
+  "description": "Nictiz NL package of FHIR STU3 conformance resources for Medication Process.",
+  "author": "nictiz",
+  "dependencies": {
+    "hl7.fhir.r3.core": "3.0.2",
+    "nictiz.fhir.nl.stu3.zib2017": "2.0.0"
+  },
+  "fhirVersions": null,
+  "devDependencies": null,
+  "canonicals": null
 }
