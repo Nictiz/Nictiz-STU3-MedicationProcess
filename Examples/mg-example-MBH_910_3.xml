@@ -1,10 +1,11 @@
 <?xml-model href="http://hl7.org/fhir/STU3/bundle.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><Bundle xmlns="http://hl7.org/fhir"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/bundle.xsd">
+   <id value="mg-example-MBH-910-3"/>
    <type value="searchset"/>
    <total value="1"/>
    <entry>
-      <fullUrl value="urn:uuid:49bde527-f37f-11ea-9198-020000000000"/>
+      <fullUrl value="urn:uuid:185ad747-f82f-11ea-8215-020000000000"/>
       <resource>
          <MedicationStatement>
             <meta>
@@ -31,7 +32,7 @@
                         </tr>
                         <tr>
                            <th>Informant</th>
-                           <td>T{12:15:00}</td>
+                           <td>12:15:00, 8 juni 2020</td>
                         </tr>
                         <tr>
                            <th>Ondersteunende informatie</th>
@@ -64,7 +65,7 @@
             </extension>
             <extension url="http://nictiz.nl/fhir/StructureDefinition/mp-MedicationUse-Author">
                <valueReference>
-                  <reference value="urn:uuid:49bdcce4-f37f-11ea-9198-020000000000"/>
+                  <reference value="urn:uuid:185abf04-f82f-11ea-8215-020000000000"/>
                   <display value="Dr Jansen || Internist || Ziekenhuis zus en zo"/>
                </valueReference>
             </extension>
@@ -109,9 +110,9 @@
                </extension>
                <start value="2020-06-08"/>
             </effectivePeriod>
-            <dateAsserted value="T{12:15:00}"/>
+            <dateAsserted value="2020-06-08T12:15:00+02:00"/>
             <subject>
-               <reference value="urn:uuid:49bde50e-f37f-11ea-9198-020000000000"/>
+               <reference value="urn:uuid:185ad72e-f82f-11ea-8215-020000000000"/>
                <display value="Joris Hansman"/>
             </subject>
             <derivedFrom>
@@ -181,7 +182,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:49bde50e-f37f-11ea-9198-020000000000"/>
+      <fullUrl value="urn:uuid:185ad72e-f82f-11ea-8215-020000000000"/>
       <resource>
          <Patient>
             <meta>
@@ -251,7 +252,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:49bdccfd-f37f-11ea-9198-020000000000"/>
+      <fullUrl value="urn:uuid:185abf1d-f82f-11ea-8215-020000000000"/>
       <resource>
          <Organization>
             <meta>
@@ -283,7 +284,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:49bdcce4-f37f-11ea-9198-020000000000"/>
+      <fullUrl value="urn:uuid:185abf04-f82f-11ea-8215-020000000000"/>
       <resource>
          <PractitionerRole>
             <meta>
@@ -317,7 +318,7 @@
                <display value="Dr Jansen"/>
             </practitioner>
             <organization>
-               <reference value="urn:uuid:49bdccfd-f37f-11ea-9198-020000000000"/>
+               <reference value="urn:uuid:185abf1d-f82f-11ea-8215-020000000000"/>
                <display value="Ziekenhuis zus en zo"/>
             </organization>
             <specialty>

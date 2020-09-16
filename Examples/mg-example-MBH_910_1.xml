@@ -1,10 +1,11 @@
 <?xml-model href="http://hl7.org/fhir/STU3/bundle.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><Bundle xmlns="http://hl7.org/fhir"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/bundle.xsd">
+   <id value="mg-example-MBH-910-1"/>
    <type value="searchset"/>
    <total value="3"/>
    <entry>
-      <fullUrl value="urn:uuid:49b7b84b-f37f-11ea-2068-020000000000"/>
+      <fullUrl value="urn:uuid:18534adb-f82f-11ea-1281-020000000000"/>
       <resource>
          <MedicationRequest>
             <meta>
@@ -90,7 +91,7 @@
                <display value="PARACETAMOL 500MG TABLET"/>
             </medicationReference>
             <subject>
-               <reference value="urn:uuid:49b7b832-f37f-11ea-2068-020000000000"/>
+               <reference value="urn:uuid:18534ac2-f82f-11ea-1281-020000000000"/>
                <display value="Joris Hansman"/>
             </subject>
             <authoredOn value="2020-06-08T09:15:00+02:00"/>
@@ -98,7 +99,7 @@
                <agent>
                   <extension url="http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference">
                      <valueReference>
-                        <reference value="urn:uuid:49b7b85b-f37f-11ea-2068-020000000000"/>
+                        <reference value="urn:uuid:18534aeb-f82f-11ea-1281-020000000000"/>
                         <display value="Peter van Pulver || Huisartsen, niet nader gespecificeerd || Huisartsenpraktijk Pulver &amp; Partners"/>
                      </valueReference>
                   </extension>
@@ -136,7 +137,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:49b7be33-f37f-11ea-2068-020000000000"/>
+      <fullUrl value="urn:uuid:185350c3-f82f-11ea-1281-020000000000"/>
       <resource>
          <MedicationRequest>
             <meta>
@@ -225,7 +226,7 @@
                <display value="PARACETAMOL 500MG TABLET"/>
             </medicationReference>
             <subject>
-               <reference value="urn:uuid:49b7b832-f37f-11ea-2068-020000000000"/>
+               <reference value="urn:uuid:18534ac2-f82f-11ea-1281-020000000000"/>
                <display value="Joris Hansman"/>
             </subject>
             <authoredOn value="2016-06-23T16:54:23+02:00"/>
@@ -233,7 +234,7 @@
                <agent>
                   <extension url="http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference">
                      <valueReference>
-                        <reference value="urn:uuid:49b7be37-f37f-11ea-2068-020000000000"/>
+                        <reference value="urn:uuid:185350c7-f82f-11ea-1281-020000000000"/>
                         <display value="Peter van Pulver || Huisartsen, niet nader gespecificeerd || Huisartsenpraktijk Pulver &amp; Partners"/>
                      </valueReference>
                   </extension>
@@ -247,7 +248,7 @@
             <dispenseRequest>
                <extension url="http://nictiz.nl/fhir/StructureDefinition/zib-Dispense-Location">
                   <valueReference>
-                     <reference value="urn:uuid:49b7be80-f37f-11ea-2068-020000000000"/>
+                     <reference value="urn:uuid:18535110-f82f-11ea-1281-020000000000"/>
                      <display value="Let op! Werk aan de weg. Omleiding staat aangegeven.Prikstraat12Amsterdam"/>
                   </valueReference>
                </extension>
@@ -269,7 +270,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:49b7be92-f37f-11ea-2068-020000000000"/>
+      <fullUrl value="urn:uuid:18535122-f82f-11ea-1281-020000000000"/>
       <resource>
          <MedicationDispense>
             <meta>
@@ -363,7 +364,7 @@
                <display value="PRIMPERAN ZETPIL 20MG"/>
             </medicationReference>
             <subject>
-               <reference value="urn:uuid:49b7b832-f37f-11ea-2068-020000000000"/>
+               <reference value="urn:uuid:18534ac2-f82f-11ea-1281-020000000000"/>
                <display value="Joris Hansman"/>
             </subject>
             <performer>
@@ -420,7 +421,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:49b7b832-f37f-11ea-2068-020000000000"/>
+      <fullUrl value="urn:uuid:18534ac2-f82f-11ea-1281-020000000000"/>
       <resource>
          <Patient>
             <meta>
@@ -615,7 +616,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:49b7b85b-f37f-11ea-2068-020000000000"/>
+      <fullUrl value="urn:uuid:18534aeb-f82f-11ea-1281-020000000000"/>
       <resource>
          <PractitionerRole>
             <meta>
@@ -667,7 +668,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:49b7be37-f37f-11ea-2068-020000000000"/>
+      <fullUrl value="urn:uuid:185350c7-f82f-11ea-1281-020000000000"/>
       <resource>
          <PractitionerRole>
             <meta>
@@ -813,7 +814,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:49b7be80-f37f-11ea-2068-020000000000"/>
+      <fullUrl value="urn:uuid:18535110-f82f-11ea-1281-020000000000"/>
       <resource>
          <Location>
             <meta>

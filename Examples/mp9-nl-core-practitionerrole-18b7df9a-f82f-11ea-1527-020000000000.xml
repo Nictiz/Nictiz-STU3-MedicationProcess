@@ -1,5 +1,5 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
-   <id value="4a05429a-f37f-11ea-1898-020000000000"/>
+   <id value="18b7df9a-f82f-11ea-1527-020000000000"/>
    <meta>
       <profile value="http://fhir.nl/fhir/StructureDefinition/nl-core-practitionerrole"/>
    </meta>
@@ -31,7 +31,7 @@
       <display value="Dr Jansen"/>
    </practitioner>
    <organization>
-      <reference value="Organization/4a0542b1-f37f-11ea-1898-020000000000"/>
+      <reference value="Organization/18b7dfb1-f82f-11ea-1527-020000000000"/>
       <display value="Ziekenhuis zus en zo"/>
    </organization>
    <specialty>

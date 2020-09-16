@@ -35,7 +35,7 @@
    <source>
       <extension url="http://nictiz.nl/fhir/StructureDefinition/MedicationOverview-SourceOrganization">
          <valueReference>
-            <reference value="Organization/4a0542c8-f37f-11ea-1898-020000000000"/>
+            <reference value="Organization/18b7dfc8-f82f-11ea-1527-020000000000"/>
             <display value="Ziekenhuis zus en zo"/>
          </valueReference>
       </extension>

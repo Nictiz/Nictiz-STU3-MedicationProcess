@@ -1,13 +1,14 @@
 <?xml-model href="http://hl7.org/fhir/STU3/bundle.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><Bundle xmlns="http://hl7.org/fhir"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/bundle.xsd">
+   <id value="mp9-Bundle-d46e352"/>
    <meta>
       <profile value="http://nictiz.nl/fhir/StructureDefinition/Bundle-MedicationOverview"/>
    </meta>
    <type value="searchset"/>
    <total value="1"/>
    <entry>
-      <fullUrl value="urn:uuid:4a0542c0-f37f-11ea-1898-020000000000"/>
+      <fullUrl value="urn:uuid:18b7dfc0-f82f-11ea-1527-020000000000"/>
       <resource>
          <List>
             <id value="d46e352"/>
@@ -46,7 +47,7 @@
             <source>
                <extension url="http://nictiz.nl/fhir/StructureDefinition/MedicationOverview-SourceOrganization">
                   <valueReference>
-                     <reference value="Organization/4a0542c8-f37f-11ea-1898-020000000000"/>
+                     <reference value="Organization/18b7dfc8-f82f-11ea-1527-020000000000"/>
                      <display value="Ziekenhuis zus en zo"/>
                   </valueReference>
                </extension>
@@ -77,7 +78,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:4a053c0c-f37f-11ea-1898-020000000000"/>
+      <fullUrl value="urn:uuid:18b7d90c-f82f-11ea-1527-020000000000"/>
       <resource>
          <MedicationRequest>
             <id value="MB-01hMA-01"/>
@@ -213,7 +214,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:4a0541f7-f37f-11ea-1898-020000000000"/>
+      <fullUrl value="urn:uuid:18b7def7-f82f-11ea-1527-020000000000"/>
       <resource>
          <MedicationDispense>
             <id value="1546339-f6753t65r"/>
@@ -349,7 +350,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:4a054241-f37f-11ea-1898-020000000000"/>
+      <fullUrl value="urn:uuid:18b7df41-f82f-11ea-1527-020000000000"/>
       <resource>
          <MedicationStatement>
             <id value="MB-01i1GE-01"/>
@@ -377,7 +378,7 @@
                         </tr>
                         <tr>
                            <th>Informant</th>
-                           <td>T+43D</td>
+                           <td>2020-07-21</td>
                         </tr>
                         <tr>
                            <th>Ondersteunende informatie</th>
@@ -410,7 +411,7 @@
             </extension>
             <extension url="http://nictiz.nl/fhir/StructureDefinition/mp-MedicationUse-Author">
                <valueReference>
-                  <reference value="PractitionerRole/4a05429a-f37f-11ea-1898-020000000000"/>
+                  <reference value="PractitionerRole/18b7df9a-f82f-11ea-1527-020000000000"/>
                   <display value="Dr Jansen || Internist || Ziekenhuis zus en zo"/>
                </valueReference>
             </extension>
@@ -458,7 +459,7 @@
                </extension>
                <start value="2020-07-21"/>
             </effectivePeriod>
-            <dateAsserted value="T+43D"/>
+            <dateAsserted value="2020-07-21"/>
             <subject>
                <reference value="Patient/JORISHANSMAN"/>
                <display value="Joris Hansman"/>
@@ -530,7 +531,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:4a052bc5-f37f-11ea-1898-020000000000"/>
+      <fullUrl value="urn:uuid:18b7c8c5-f82f-11ea-1527-020000000000"/>
       <resource>
          <Patient>
             <id value="JORISHANSMAN"/>
@@ -603,7 +604,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:4a053c29-f37f-11ea-1898-020000000000"/>
+      <fullUrl value="urn:uuid:18b7d929-f82f-11ea-1527-020000000000"/>
       <resource>
          <Organization>
             <id value="URANUMMER1-2-3-4"/>
@@ -653,10 +654,10 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:4a0542b1-f37f-11ea-1898-020000000000"/>
+      <fullUrl value="urn:uuid:18b7dfb1-f82f-11ea-1527-020000000000"/>
       <resource>
          <Organization>
-            <id value="4a0542b1-f37f-11ea-1898-020000000000"/>
+            <id value="18b7dfb1-f82f-11ea-1527-020000000000"/>
             <meta>
                <profile value="http://fhir.nl/fhir/StructureDefinition/nl-core-organization"/>
             </meta>
@@ -686,10 +687,10 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:4a0542c8-f37f-11ea-1898-020000000000"/>
+      <fullUrl value="urn:uuid:18b7dfc8-f82f-11ea-1527-020000000000"/>
       <resource>
          <Organization>
-            <id value="4a0542c8-f37f-11ea-1898-020000000000"/>
+            <id value="18b7dfc8-f82f-11ea-1527-020000000000"/>
             <meta>
                <profile value="http://fhir.nl/fhir/StructureDefinition/nl-core-organization"/>
             </meta>
@@ -781,7 +782,7 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:4a053c14-f37f-11ea-1898-020000000000"/>
+      <fullUrl value="urn:uuid:18b7d914-f82f-11ea-1527-020000000000"/>
       <resource>
          <PractitionerRole>
             <id value="01234567801-016URANUMMER"/>
@@ -833,10 +834,10 @@
       </search>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:4a05429a-f37f-11ea-1898-020000000000"/>
+      <fullUrl value="urn:uuid:18b7df9a-f82f-11ea-1527-020000000000"/>
       <resource>
          <PractitionerRole>
-            <id value="4a05429a-f37f-11ea-1898-020000000000"/>
+            <id value="18b7df9a-f82f-11ea-1527-020000000000"/>
             <meta>
                <profile value="http://fhir.nl/fhir/StructureDefinition/nl-core-practitionerrole"/>
             </meta>
@@ -868,7 +869,7 @@
                <display value="Dr Jansen"/>
             </practitioner>
             <organization>
-               <reference value="Organization/4a0542b1-f37f-11ea-1898-020000000000"/>
+               <reference value="Organization/18b7dfb1-f82f-11ea-1527-020000000000"/>
                <display value="Ziekenhuis zus en zo"/>
             </organization>
             <specialty>

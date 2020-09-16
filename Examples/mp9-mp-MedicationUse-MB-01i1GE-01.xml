@@ -24,7 +24,7 @@
                </tr>
                <tr>
                   <th>Informant</th>
-                  <td>T+43D</td>
+                  <td>2020-07-21</td>
                </tr>
                <tr>
                   <th>Ondersteunende informatie</th>
@@ -57,7 +57,7 @@
    </extension>
    <extension url="http://nictiz.nl/fhir/StructureDefinition/mp-MedicationUse-Author">
       <valueReference>
-         <reference value="PractitionerRole/4a05429a-f37f-11ea-1898-020000000000"/>
+         <reference value="PractitionerRole/18b7df9a-f82f-11ea-1527-020000000000"/>
          <display value="Dr Jansen || Internist || Ziekenhuis zus en zo"/>
       </valueReference>
    </extension>
@@ -105,7 +105,7 @@
       </extension>
       <start value="2020-07-21"/>
    </effectivePeriod>
-   <dateAsserted value="T+43D"/>
+   <dateAsserted value="2020-07-21"/>
    <subject>
       <reference value="Patient/JORISHANSMAN"/>
       <display value="Joris Hansman"/>
