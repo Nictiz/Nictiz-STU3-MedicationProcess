@@ -55,7 +55,7 @@
    <extension url="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationUse-AsAgreedIndicator">
       <valueBoolean value="true"/>
    </extension>
-   <extension url="http://nictiz.nl/fhir/StructureDefinition/mp-MedicationUse-Author">
+   <extension url="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationUse-Author">
       <valueReference>
          <reference value="PractitionerRole/01234567801-016URANUMMER"/>
          <display value="Dr Jansen || Internist || Ziekenhuis zus en zo"/>

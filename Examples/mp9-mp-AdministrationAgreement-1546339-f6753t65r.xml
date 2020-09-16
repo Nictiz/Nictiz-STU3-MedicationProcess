@@ -66,7 +66,7 @@
          <value value="#MB_01h"/>
       </valueIdentifier>
    </extension>
-   <extension url="http://nictiz.nl/fhir/StructureDefinition/zib-Medication-CopyIndicator">
+   <extension url="http://nictiz.nl/fhir/StructureDefinition/mp-Medication-CopyIndicator">
       <valueBoolean value="false"/>
    </extension>
    <extension url="http://nictiz.nl/fhir/StructureDefinition/zib-Medication-InstructionsForUseDescription">
