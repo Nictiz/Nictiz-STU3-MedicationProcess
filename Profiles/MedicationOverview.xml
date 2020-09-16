@@ -209,7 +209,7 @@
       <slicing>
         <discriminator>
           <type value="profile" />
-          <path value="item.reference.resolve()" />
+          <path value="item.resolve()" />
         </discriminator>
         <rules value="open" />
       </slicing>
