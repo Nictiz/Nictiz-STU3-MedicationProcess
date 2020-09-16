@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="zib-DispenseRequest-RelatedMedicationAgreement" />
+  <id value="mp-DispenseRequest-RelatedMedicationAgreement" />
   <url value="http://nictiz.nl/fhir/StructureDefinition/mp-DispenseRequest-RelatedMedicationAgreement" />
   <version value="2.0.0" />
-  <name value="Zib Related Medication Agreement" />
+  <name value="MP Related Medication Agreement" />
   <title value="HCIM Related Medication Agreement" />
   <status value="active" />
   <publisher value="Nictiz" />

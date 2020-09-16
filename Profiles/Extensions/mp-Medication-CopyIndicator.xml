@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="zib-Medication-CopyIndicator" />
+  <id value="mp-Medication-CopyIndicator" />
   <url value="http://nictiz.nl/fhir/StructureDefinition/mp-Medication-CopyIndicator" />
-  <version value="2.0.0" />
-  <name value="Zib Medication CopyIndicator" />
+  <version value="0.1.0" />
+  <name value="MP Medication CopyIndicator" />
   <title value="HCIM Medication Copy Indicator" />
   <status value="active" />
   <publisher value="Nictiz" />
