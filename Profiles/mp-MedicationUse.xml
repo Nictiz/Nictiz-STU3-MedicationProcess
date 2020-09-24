@@ -208,5 +208,12 @@
         <comment value="Identificatie" />
       </mapping>
     </element>
+    <element id="MedicationStatement.dosage">
+      <path value="MedicationStatement.dosage" />
+      <type>
+        <code value="Dosage" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp-InstructionsForUse" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>

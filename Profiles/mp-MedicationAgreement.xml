@@ -169,5 +169,12 @@
         <comment value="Reden wijzigen of staken" />
       </mapping>
     </element>
+    <element id="MedicationRequest.dosageInstruction">
+      <path value="MedicationRequest.dosageInstruction" />
+      <type>
+        <code value="Dosage" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp-InstructionsForUse" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>

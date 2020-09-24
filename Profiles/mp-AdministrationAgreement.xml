@@ -104,5 +104,12 @@
         <comment value="Supplier. For MP: Use a reference to an nl-core-organization using the actor.reference element" />
       </mapping>
     </element>
+    <element id="MedicationDispense.dosageInstruction">
+      <path value="MedicationDispense.dosageInstruction" />
+      <type>
+        <code value="Dosage" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp-InstructionsForUse" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
