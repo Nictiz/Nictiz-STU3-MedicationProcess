@@ -7,7 +7,7 @@
       <status value="extensions"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
          <table>
-            <caption>Organisatie. Id: URAnummer (urn:oid:1.2.3.4)</caption>
+            <caption>Organisatie. Id: URAnummer (http://fhir.nl/fhir/NamingSystem/ura)</caption>
             <tbody>
                <tr>
                   <th>Naam</th>
@@ -18,7 +18,7 @@
       </div>
    </text>
    <identifier>
-      <system value="urn:oid:1.2.3.4"/>
+      <system value="http://fhir.nl/fhir/NamingSystem/ura"/>
       <value value="URAnummer"/>
    </identifier>
    <name value="Ziekenhuis zus en zo"/>
