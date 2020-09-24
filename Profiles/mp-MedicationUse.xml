@@ -65,6 +65,17 @@
         <comment value="Reden wijzigen of stoppen gebruik" />
       </mapping>
     </element>
+    <element id="MedicationStatement.extension:reasonForChangeOrDiscontinuationOfUse.valueCodeableConcept:valueCodeableConcept">
+      <path value="MedicationStatement.extension.valueCodeableConcept" />
+      <sliceName value="valueCodeableConcept" />
+      <binding>
+        <strength value="extensible" />
+        <valueSetReference>
+          <reference value="http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.20.77.11.37--20191217155125" />
+          <display value="ReasonForChangeOrDiscontinuationOfUseCodeList" />
+        </valueSetReference>
+      </binding>
+    </element>
     <element id="MedicationStatement.extension:copyIndicator">
       <path value="MedicationStatement.extension" />
       <sliceName value="copyIndicator" />
